@@ -183,7 +183,7 @@ export function Homepage() {
               {products.map((i) => (
                 <Card key={i.key}>
                   <CardContent className="p-4">
-                    <Image
+                    <img
                       alt={i.name}
                       className="aspect-square object-cover w-full rounded-lg overflow-hidden"
                       height={300}
