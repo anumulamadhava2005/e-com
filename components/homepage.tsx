@@ -4,7 +4,6 @@ import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import { ShoppingCart, Search, Heart, Menu } from "lucide-react"
-import Image from 'next/image';
 
 export function Homepage() {
   const products = [
